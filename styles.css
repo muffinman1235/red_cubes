@@ -16,7 +16,7 @@ body {
 }
 
 .meetup-area {
-    width: 800px;
+    width: 800px;margin-top:20%;
     height: 600px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -53,11 +53,11 @@ body {
     margin-bottom: 5px;
 }
 
-#chatInput {
+#usernameInput, #chatInput {
     padding: 10px;
     border: 1px solid #ccc;
     flex-grow: 1;
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 button {
